@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>HTML FRAMES</title>
+</head>
+<style>
+body
+{background-image:radial-gradient(red,yellow,blue, green );
+}
+div
+{
+width:100px;
+height:100px;
+background:red; 
+animation-name:example;
+animation-duration:4s;
+transition:width 2s,height 4s,transform 2s;
+}
+@keyframes example
+{
+from
+{
+background-color:red;
+}
+to
+{background-color:yellow;
+}
+}
+div:hover{
+width:300px;
+height:300px;
+transform:rotate(180deg);
+}
+.sec
+{
+width:200px;
+height:200px;
+background:red;
+animation-name:movingimage;
+animation-duration:4s;
+position:relative;
+
+animation-direction:alternate-reverse;
+}
+@keyframes movingimage {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+</style>
+
+<body>
+<p>content</p>
+
+<div>
+<p>SHERLOCK HOLMES</P>
+</div>
+<div class="sec">
+<h6>221B  BAKER'S STREET</h6>
+</div>
+</body>
+
+</html>

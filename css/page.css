@@ -1,0 +1,138 @@
+
+div.first{
+    background-color:gray;
+    width:100%;
+    position:absolute;
+    top:0;
+    height:100px;
+}
+body{
+    padding:0px;
+    margin:0px
+}
+li{
+    display:inline;
+    text-align:center;
+    margin-left:143px;
+}
+li.space{
+    margin-left:850px;
+}
+img.logo{
+        position: absolute;
+    left: 9px;
+    top: 2px;
+    width: 80px;
+    height: 98px;
+}
+
+.second
+{
+
+    width: 100%;
+    height: 545px;
+}
+.seconddiv
+
+{ padding-top: 100px;}
+a{
+text-decoration:none;}
+a:active
+{
+color:red;
+
+}
+.third
+{background-color: gray;
+padding-top: 10px;
+}
+.thirdimg
+{
+    height: 188px;
+    margin-left: 935px;
+    margin-top: -155px;
+}
+.text
+{
+text-align: justify;
+
+font-size: 16px;
+}
+.task
+{    height: 172px;
+    width: 241px;
+}
+.task1:hover
+{
+width:270px;
+height:200px;
+transform: scale(1.5); 
+}
+.task1
+{  height: 172px;
+    width: 241px;
+    margin-left: 444px;
+margin-top: 50px;
+
+transition:width 2s,height 4s,transform 2s;
+}
+.fourth
+{
+    height: 94px;
+    width: 100%;
+    background-color: grey;
+    }
+.four
+{
+padding-top: 42px;
+padding-left: 200px;
+}
+.fifth
+{
+height: 94px;
+width: 100%;
+background-color: red;
+padding-top: 1px;
+    }
+i
+{
+padding: 6px;
+margin-right: -111px;
+}
+.five
+{
+padding-top: 29px;
+padding-left: 337px;
+}
+.six
+{
+  height: 163px;
+    width: 100%;
+    background-color: black;
+    padding-top: 1px;
+    position: relative;
+}
+.icon li{
+    display:inline;
+    text-align:center;
+    margin-left:5%;
+}
+.icon li.space2{
+    margin-left:20%;
+}
+.icon2 li{
+    
+    display: inline;
+    text-align: center;
+    margin-left: 6%;
+    color: white;
+}
+.icon2 li.space2{
+    margin-left:21%;
+}
+.icon2 li.space3{
+    margin-left:7%;
+}
+.icon2 li.space4{
+    margin-left:8%;
+}

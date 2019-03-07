@@ -1,0 +1,15 @@
+div.assign
+{
+border:2px black solid;
+background-image:url(/home/section1/2016cse025/dark.jpeg);
+}
+div.first
+{
+opacity: 0.5;
+border: 2px black solid;
+padding: 52px;
+margin: 53px;
+background-color: white;}
+p{
+color:black;
+}

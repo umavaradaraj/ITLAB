@@ -1,0 +1,115 @@
+p
+{
+color:red;
+padding:50px;
+font-style:italic;
+text-transform:capitalize;
+}
+p#dotted
+{
+border:4px dotted red;
+}
+p#solid
+{
+border:10px solid green;
+}
+#para1
+{
+color:blue;
+}
+h1.colortext
+{
+color:green;
+margin:50px 25px 50px 25px;
+}
+
+h1,p
+{
+color:red;}
+body
+{
+background-color:linen;
+background-image:url(/home/section1/2016cse025/dark.jpeg);
+background-repeat:no-repeat;
+background-size:cover;
+font-size:20px;
+}
+h1
+{
+background-color: lightblue;
+margin-left: 20px;
+width:50%;
+font-size:3em;
+text-transform:uppercase;
+  text-shadow: 2px 2px black;
+}
+.division
+{
+width:200px;
+border:25px solid navy;
+border-radius:25px;
+box-shadow:10px 10px ;
+}
+.image
+{margin-left: 778px;
+}
+a{
+color:white;
+text-decoration:none;
+}
+a:link
+{
+color:red;
+}
+a:visited
+{color:blue;
+}
+.un
+{
+color:white;
+}
+table,th,td
+{
+border:2px solid green;
+}
+tr
+{
+color:white;
+}
+table{
+border-collapse:collapse;
+}
+a:hover,a:active
+{
+background-color:yellow;
+}
+a.color:link,a.color:visited
+{
+background-color:lightblue;
+}
+div p
+{color:red;
+}
+div >p
+{
+color:red;
+}
+p::first-letter
+{
+color:red;
+font-size:xx-large;
+}
+p#solid:hover
+{
+color:white;
+}
+img.ana
+{
+    opacity: 0.1;
+    filter: alpha(opacity=50);
+    width: 100%;
+}
+img.ana:hover
+{
+opacity:0.5;
+}
